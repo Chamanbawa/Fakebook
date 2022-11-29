@@ -44,8 +44,6 @@ function newDivs() {
             <div><img src="./assets/img/nature.jpg" alt="" class="pro-pic"></div>
             <h3 class = "user">PREET</h3></div>`;
            
-
-
             let date1 = document.createElement("div");
             anotherdiv.appendChild(date1);
             date1.innerText = `${date()}`;
@@ -56,13 +54,13 @@ function newDivs() {
             words.classList.add('words');
             words.style.color = '#000';
             words.innerText = `${input.value}`;
-
+            
+            input.value = '';
             let picture = document.createElement("img");
             newDiv.appendChild(picture);
             picture.classList.add('picture');
             picture.style.display = "block";
             picture.src = getImgData();
-            input.value = '';
 
  }
 function validation() {

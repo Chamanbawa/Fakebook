@@ -62,7 +62,7 @@ class Subscriber extends User {
         return this.#canMonetize;
     }
     getInfo() {
-        return `id:${this.id}\nname:${this.name}\nuserName:${this.userName}\nEmail:${this.email}\nPages:${this.pages}\nGroups:${this.groups}\nCanMOnetize:${this.canMonetize}`;
+        return `id:${this.id}\n name:${this.name}\nuserName:${this.userName}\nEmail:${this.email}\nPages:${this.pages}\nGroups:${this.groups}\nCanMOnetize:${this.canMonetize}`;
     }
 }
 

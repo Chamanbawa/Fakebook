@@ -1,8 +1,8 @@
 ## Click me if you can
 
-A simple Shape Factory
+This is Simple Facebook.
 
 ### Demo
 
-Click [here]( https://chamanbawa.github.io/Shape-factory/) to make shapes.
+Click [here]( https://chamanbawa.github.io/Fakebook/) to upload your photo or what is on your mind!.
 

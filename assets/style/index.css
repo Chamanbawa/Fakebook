@@ -40,7 +40,7 @@ header {
 }
 
 .title h1 {
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 550;
     line-height: 56px;
     font-family: "Roboto", sans-serif;
@@ -81,35 +81,29 @@ nav ul li+li {
     margin-left: 18px;
 }
 
+.pic {
+    width: 20%;
+    height: 56%;
+    text-align: right;
+    
+    
+
+}
+.top {
+     
+    margin-left: 60px;
+    margin-top: 14px;
+    
+}
 .pro-pic {
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
-.pic {
- text-align: center;
 
-}
 
-/* .pop-up {
-    display: grid;
-    place-items: center;
-    display: none;
-    width: 500px;
-    height: 500px;
-} */
-
-.data {
-    visibility: hidden;
-    text-align: center;
-    display: grid;
-    place-items: center;
-    width: 500px;
-    height: 500px;
-    background-color: #fff;
-}
 
 /* ------------------Section---------------------- */
 .center {
@@ -118,8 +112,24 @@ nav ul li+li {
     justify-content: center;
     position: relative;
     margin-top: 50px;
+    color: #fff;
 }
 
+.data {
+    visibility: hidden;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0 ,0.7);
+    margin-top:  10px;
+}
+.over {
+
+    background-color: #fff;
+}
 
 
 .main-box {
@@ -211,6 +221,7 @@ input[type='file'] {
 
 .date {
     margin-left: 150px;
+    color: #000;
 }
 
 .words {
@@ -219,4 +230,8 @@ input[type='file'] {
 .picture {
     margin-top: 15px; 
     border-radius: 10px;
+}
+
+.user {
+    color: #000;
 }
