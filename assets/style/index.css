@@ -1,0 +1,222 @@
+@import "./reset.css";
+
+/* ------------------- */
+/*                      */
+/* ------------------- */
+:root {
+
+    --app-dark-bg: #1a1d28;
+    --app-red: #ff3c57;
+    --app-green: #33ab4e;
+    --app-purple: #833cff;
+    --app-orange: #ff833c;
+    --app-blue: #3c57ff;
+    --app-blue-hover: #364ee6;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin: auto;
+}
+
+/* --------------Header-------------------------- */
+.flexbox {
+    display: flex;
+}
+
+header {
+    background-color: var(--app-dark-bg);
+    width: 100%;
+}
+
+.title {
+    width: 20%;
+    height: 56%;
+    text-align: left;
+}
+
+.title h1 {
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 56px;
+    font-family: "Roboto", sans-serif;
+    color: var(--app-orange);
+    letter-spacing: 0.2px;
+}
+
+nav {
+    text-align: center;
+    width: 60%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 56px;
+    cursor: default;
+}
+
+nav ul li a {
+    font-size: 17px;
+    color: rgb(253, 249, 249);
+    font-weight: 525;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    font-family: Madefor, Helvetica Neue, Helvetica, Arial, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li+li {
+    margin-left: 18px;
+}
+
+.pro-pic {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.pic {
+ text-align: center;
+
+}
+
+/* .pop-up {
+    display: grid;
+    place-items: center;
+    display: none;
+    width: 500px;
+    height: 500px;
+} */
+
+.data {
+    visibility: hidden;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+}
+
+/* ------------------Section---------------------- */
+.center {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+
+.main-box {
+    background-color: var(--app-dark-bg);
+    gap: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+
+.input {
+    color: #fff;
+    width: 400px;
+    min-height: 150px;
+    gap: 5px;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: var(--app-dark-bg);
+}
+
+.utilites {
+    display: flex;
+    gap: 10px;
+
+}
+
+form {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.image {
+    appearance: none;
+    width: 75%;
+    padding: 5px;
+    height: 46px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    inset: auto 50px 50px auto;
+    background-color: var(--app-dark-bg);
+}
+
+input[type='file'] {
+    background-color: var(--app-dark-bg);
+}
+
+.post {
+    width: 90px;
+    padding: 5px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    inset: auto 50px 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px;
+    background-color: var(--app-orange);
+}
+
+/* ---------------------------------------- */
+
+
+.blog {
+    border-radius: 10px;
+    width: 425px;
+    min-height: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.blog+div {
+    margin-top: 15px;
+}
+
+.info {
+    color: #fff;
+}
+
+.heading {
+    display: flex;
+    gap: 20px;
+}
+
+
+.date {
+    margin-left: 150px;
+}
+
+.words {
+    margin-top: 15px;
+}
+.picture {
+    margin-top: 15px; 
+    border-radius: 10px;
+}
